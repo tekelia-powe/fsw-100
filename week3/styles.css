@@ -1,0 +1,28 @@
+h1 {
+    color: green;
+}
+body p{
+    line-height:25px;
+}
+a{
+    text-decoration: none;
+}
+img {
+    float: left;
+    margin-right: 25px;
+    width: 150px;
+    height: 150px;
+}
+
+.heading {
+    text-align: center;
+    font-family: Georgia;
+}
+
+#sub-heading {
+    text-transform: uppercase;
+}
+
+a:hover{
+    text-decoration: underline;
+}
