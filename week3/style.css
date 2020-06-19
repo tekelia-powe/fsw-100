@@ -1,0 +1,29 @@
+h1{
+    color: blue;    
+}
+
+table, th, td {
+    border: 1px solid black;
+  }
+
+.my-text{
+    font-family: cursive;
+    color: red; 
+    font-size: 15px;  
+}
+#name{
+    background-color: grey;
+}
+
+ol{
+    font-weight: bold;
+    color: green;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: aqua;
+}
