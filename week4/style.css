@@ -1,0 +1,134 @@
+
+.header { 
+    grid-area: header;
+    width: 100%;
+    background-color: black; 
+    color: white;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    display: flex;
+    
+    justify-content: space-evenly;
+    
+        }
+        img{
+            width: 175px;
+            height: 155px;
+            padding: 15px;
+        }
+        h1{
+            font-size: 50px;
+        }
+li{
+    margin: 20px 20px;
+}
+
+.sidebar { 
+    grid-area: sidebar;
+    background-color: white;
+    border-style: ridge;
+    border-color: hotpink;
+    text-align: left;
+    padding: 10px;
+    max-width: 350px;
+    }
+.main { 
+    grid-area: main; 
+    background-color: white;
+    text-align: center;
+    padding: 25px;
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+.image_table img{
+    width: 125px;
+    height: 125px;
+    display: block;
+    padding: 0px;
+}
+
+.image_table td {
+    padding: 5px;
+}
+table td,th {
+    padding: 15px;
+    text-align: center;
+}
+
+.right { 
+    grid-area: right;
+    background-color: white;
+    border-style: ridge;
+    border-color: hotpink;
+    max-width: 300px;
+    text-align: center;
+    margin-left:auto; 
+    margin-right:auto;
+     }
+.nav { 
+    grid-area: menu;
+    background-color: black; 
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav a{ 
+       padding: 20px;
+       text-decoration: none;
+   }
+   a:hover {
+    background-color: floralwhite;
+  }
+  
+h3, h5{
+    text-align: center;
+}  
+   
+p{
+    text-align: center;
+    
+}
+.footer { 
+    grid-area: footer;
+    display: flex;
+    justify-content: space-evenly;
+ }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header'
+    'sidebar main main main right'
+    'sidebar main main main right'
+    'menu menu menu menu menu'
+    'footer footer footer footer footer';
+  grid-gap: 10px;
+  background-color: white;
+  padding: 10px;
+}
+
+.grid-container > div {
+  
+  
+  padding: 20px 0;
+  font-size: 20px;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+}
+.single_header{
+    font-family: 'Lobster', cursive;
+    color: hotpink;
+    
+}
+.right img{
+    width: 100px;
+    height: 100px;
+}
+ table{
+    margin-left:auto; 
+    margin-right:auto;
+ }
+a {
+    text-decoration: none;
+}
