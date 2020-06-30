@@ -1,0 +1,114 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+
+}
+.grid-item {
+    background-color: #FFF);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    
+    
+  }
+
+  .ltpink-grid-item {
+    background-color: #F5C6D6;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    grid-column: 1/5;
+  }
+
+  .htpink-grid-item1 {
+    background-color: #EE2E84;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    
+  }
+  .htpink-grid-item2 {
+    background-color: #EE2E84;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    
+  }
+  .htpink-grid-item3 {
+    background-color: #EE2E84;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    
+  }
+  .htpink-grid-item4 {
+    background-color: #EE2E84;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    
+  }
+  .ltblue-grid-item1 {
+    background-color: #85CFD8;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    grid-column: span 2;
+  }
+
+  .ltblue-grid-item2 {
+    background-color: #85CFD8;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    grid-column: span 2;
+  }
+  .ltgreen-grid-item {
+    background-color: #8DC63F;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    grid-column: 1/4;
+    
+  }
+  .orange-grid-item {
+    background-color: #E76E34;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    
+  }
+
+  @media only screen and (min-width: 768px){
+
+    .ltpink-grid-item{
+        grid-column: span 4;     
+    }
+    .htpink-grid-item1{
+        grid-column: span 4;
+             
+     }
+     .htpink-grid-item2{
+        grid-column: span 4;
+     }
+     .htpink-grid-item3{
+        grid-column: span 4;      
+     }
+     .htpink-grid-item4{
+        grid-column: span 4;
+     }
+     .ltblue-grid-item1{
+        grid-column: span 4;   
+     }
+     .ltblue-grid-item2{
+        grid-column: span 4;
+     }
+     .ltgreen-grid-item{
+        grid-column: span 4;
+     }
+     .orange-grid-item{
+        grid-column: span 4;
+     }
+  }
