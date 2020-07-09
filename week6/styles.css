@@ -1,0 +1,68 @@
+.flex-container {
+  display: flex;
+  
+  padding: 20px;
+  flex-direction: column;
+}
+
+.flex-container > div {
+  background-color: fuchsia;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  flex-basis: auto;
+  
+}
+.flex-container > div:nth-child(2){
+  transition: width 2s;
+}
+
+.flex-container > div:nth-child(4){
+  transition: opacity 2s;
+}
+.flex-container > div:nth-child(1){
+  transition: background-color 2s;
+}
+
+
+
+.flex-container > div:nth-child(1):hover{
+  margin-right: 50px;
+  background-color: gold;
+  border: 3px solid black;
+}
+
+.flex-container > div:nth-child(2):hover{
+
+  background-color: green;
+  border-radius: 10%;
+  width: 150px;
+}
+.flex-container > div:nth-child(3):hover{
+
+  background-color: blue;
+  padding: 10px;
+  
+  
+}
+.flex-container > div:nth-child(4):hover{
+
+  background-color: red;
+  opacity: 50%;
+  
+  
+}
+.flex-container > div:nth-child(5):hover{
+
+  background-color: indianred;
+  transition: width 2s; 
+  width: 50px;
+}
+.flex-container > div:nth-child(6):hover{
+
+  background-color: brown;
+  box-shadow: 5px 10px;
+  
+}
