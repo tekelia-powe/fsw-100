@@ -53,6 +53,8 @@ input:hover{
       padding: 10px;
       
      }
+
+    
     .menu { 
       grid-area: menu; 
       background-color: white;
